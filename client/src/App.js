@@ -5,7 +5,7 @@ import Chat from './pages/chat';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import io from 'socket.io-client';
 
-const socket = io.connect('http://localhost:4000');
+const socket = io.connect('https://4000-manikdevbhagat-chatapp-kiaoutkl2f8.ws-us90.gitpod.io');
 
 function App() {
   const [username, setUsername] = useState('');
